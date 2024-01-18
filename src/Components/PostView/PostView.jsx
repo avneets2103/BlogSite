@@ -4,7 +4,6 @@ import postsService from "../../Appwrite/postsService";
 import fileService from "../../Appwrite/fileService";
 import './PostView.css'
 import DeletePost from "../DeletePost/DeletePost";
-import DOMPurify from "dompurify"; // Import DOMPurify
 import { useSelector } from 'react-redux';
 
 function PostView() {
@@ -44,7 +43,6 @@ function PostView() {
   const title = post.Title;
   const ImgId = post.ImageId;
   const content = post.Content;
-  const sanitizedContent = { __html: DOMPurify.sanitize(content) };
   const navigate = useNavigate();
   const postUser = post.UserName;
   const owner = (postUser == userData.email);
@@ -54,7 +52,7 @@ function PostView() {
         <div className="postView">
         <div className="viewTitle">{title}</div>
         <div className="viewImg">{img && <img src={img} alt="photo"/>}</div>
-        <div className="viewContent" dangerouslySetInnerHTML={sanitizedContent}></div>
+        <div className="viewContent" dangerouslySetInnerHTML={{ __html: content }}></div>
         </div>
         <div className="deletion">
           {owner && <DeletePost documentId={documentId}/>}

@@ -1,0 +1,13 @@
+.HomePage{
+    display: flex;
+    justify-content: center;
+    min-height: 69vh;
+}
+
+.HomeContent{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1rem;
+    width: 70%;
+}

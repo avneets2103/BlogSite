@@ -1,0 +1,49 @@
+.upperFooter{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    background-color: rgba(51, 182, 234);
+    padding: 0.5rem 5rem;
+    justify-content: space-around;
+    /* align-items: center; */
+    color: navy;
+    font-weight: 700;
+}
+
+.upperFooter ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.upperFooter li{
+    font-weight: 400;
+    color:aliceblue;
+    padding: 0.3rem 0.7rem;
+}
+
+.upperFooter li:hover{
+    color: navy;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.upperFooter ul p{
+    margin-left: 0.7rem;
+}
+
+.IconHolder{
+    display: flex;
+    align-items: center;
+}
+
+.lowerFooter{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    background-color: rgba(51, 182, 234);
+    padding: 0.5rem 5rem;
+    justify-content: center;
+    /* align-items: center; */
+    color: navy;
+    font-weight: 700;
+}

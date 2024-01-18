@@ -1,0 +1,52 @@
+.fullCreatePostPage{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.fullCreatePostPage form{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.fullCreatePostPage form button{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgba(51, 182, 234, 0.521);
+    color: white;
+    font-size: 700;
+}
+
+.fullCreatePostPage form input{
+    margin: 10px;
+    width: 100%;
+    padding: 7px;
+}
+
+.postInputs{
+    margin: 10px;
+}
+
+.postInputs label{
+    padding: 5px;
+    margin: 5px;
+    margin-left: 0;
+    border-radius: 5px;
+    background-color: rgba(51, 182, 234, 0.521);
+}
+
+.imageShower{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.imageShowerBox{
+    border-radius: 5px;
+    margin: 1rem 0;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+

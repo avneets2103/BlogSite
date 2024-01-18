@@ -1,0 +1,51 @@
+.viewPage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.postView{
+    width: 60%;
+    margin: 3rem;
+    /* padding: 2rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.viewTitle{
+    width: 100%;
+    font-weight: 600;
+    font-size: 2rem;
+    background-color: rgba(51, 182, 234, 0.521);
+    border-radius: 1rem 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.viewImg img{
+    height: 300px;
+}
+
+.viewContent{
+    width: 100%;
+    font-size: 1rem;
+    background-color: rgba(51, 182, 234, 0.521);
+    border-radius:  0 0 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.deletion{
+    background-color: rgba(248, 35, 35, 0.87);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 1.3rem;
+    margin-top: -1.3rem;
+}

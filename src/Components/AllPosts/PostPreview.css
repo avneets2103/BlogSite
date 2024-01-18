@@ -1,0 +1,24 @@
+.previewPost{
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 230px;
+}
+
+.previewImg{
+    display: flex;
+    justify-content: center;
+}
+
+.previewImg img{
+    padding: 10px;
+    height: 180px;
+}
+
+.previewTitle{
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgba(51, 182, 234, 0.521);
+}

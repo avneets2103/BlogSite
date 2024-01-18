@@ -1,8 +1,15 @@
-# React + Vite
+# Blog Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a blog site made using:
+* `Appwrite`: for Backend service
+* `React` and `Vite`: as frontend library
+* `Tailwind`: for CSS
+* `React Router DOM`: for routing
+* `Redux Toolkit`: For state management
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Provided features:
+* Secure Login, Signup and Logout.
+* Creating new Blogs with title, image and content.
+* Viewing all active blogs.
+* Viewing your own blogs.
+* Deleting your own blogs.

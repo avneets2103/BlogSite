@@ -13,3 +13,5 @@ Provided features:
 * Viewing all active blogs.
 * Viewing your own blogs.
 * Deleting your own blogs.
+
+Deployed on `vercel`.

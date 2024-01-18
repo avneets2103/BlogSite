@@ -8,7 +8,7 @@ function Footer() {
                 <ul>
                     <p>Open Source</p>
                     {/* TODO: Add code link here */}
-                    <li><a href="">Github</a></li>
+                    <li><a href="https://github.com/avneets2103/BlogSite">Github</a></li>
                 </ul>
                 <ul>
                     <p>Creator</p>
